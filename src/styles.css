@@ -1,0 +1,9 @@
+.nav-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+}
