@@ -4,13 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Google</title>
-    <link href="/src/styles.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
   </head>
   <body>
+    <!-- HEADER !-->
     <header class="top-bar">
       <nav class="nav-left">
         <a class="nav" href="#">About</a>
@@ -28,16 +29,28 @@
       </nav>
     </header>
 
+    <!-- BODY !-->
     <div class="search-area">
-      <div class="search-bar">
-        <div class="search-glass-icon">
-          <span class="material-icons md-18"> search </span>
-        </div>
-        <input class="search-input" type="text" placeholder="search" />
+      <div class="main-logo">
+        <img src="images/main-logo.png" alt="main-logo" />
       </div>
-      <div class="search-buttons"></div>
+      <div class="search-outer-border">
+        <span id="search-glass-icon" class="material-icons md-18">search</span>
+        <input class="search-input" type="text" />
+        <span id="mic-icon" class="material-icons md-18">mic</span>
+      </div>
+      <div class="search-buttons">
+        <button type="button" class="search-button" href="#">
+          Google Search
+        </button>
+        <div class="divider"></div>
+        <button type="button" class="search-button" href="#">
+          I'm Feeling Lucky
+        </button>
+      </div>
     </div>
 
+    <!-- FOOTER !-->
     <footer class="footer">
       <nav class="bottom-left-nav">
         <a class="nav-bottom" href="#">Advertising</a>
